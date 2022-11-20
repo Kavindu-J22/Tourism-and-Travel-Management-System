@@ -1,0 +1,560 @@
+.head{
+	background-color:#3d3d3d;
+}
+
+
+body{
+	background-repeat:none;
+	background-size:100%;
+	
+}
+#log{
+	position:absolute;
+	top:3.2%;
+	left:85%;
+	border-radius:20px;
+	padding:10px 12px;
+	background:merun;
+	text-decoration: none;
+}
+
+#sign{
+	position:absolute;
+	top:3.2%;
+	left:90%;
+	border-radius:20px;
+	padding:10px 12px;
+	background:merun;
+	
+}
+
+.logpic{
+	
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position:absolute;
+  left:95%;
+}
+
+
+.logo{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:430px;;
+	height : 240px;
+}
+
+#lname{
+	font-family:cursive;
+	font-size:40px;
+	color : white;
+}
+#xname{
+	font-family:cursive;
+	color : white;
+	font-size:20px;
+}
+
+.test{
+	border:2px solid black;
+}
+
+ul.menu{
+	
+	margin:0;
+	padding: 0;
+	background-color:black;
+	overflow:hidden;
+	list-style-type:none;
+	font-family:sans-serif;
+	font-size:18px;
+	
+}
+
+#admin{
+	float:right;
+	font-family:sans-serif;
+	font-size:18px;
+	
+	
+}
+
+li.menu1{
+	
+	float:left;
+	
+}
+
+li a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px  20px;
+	text-decoration:none;
+	
+}
+
+li a:hover{
+	
+	background-color:purple;
+	
+}
+
+#searchbar{
+	float:right;
+	border:3px yellow;
+	border-radius:50px;
+	padding:5px 10px;
+}
+
+#btn{
+	float:right;
+	border-radius:15px;
+	padding:5.5px 12px;
+	background:yellow;
+	
+}
+
+#register{
+
+	border-radius:50px;
+	padding:5px 12px;
+	background:#11cc11;
+}
+
+
+ div.aboutus{
+	 
+	 margin : 25px 20px 20px 20px;
+	 
+ }
+
+.bttn{
+	
+	margin : 8px 4px 4px 4px;
+	width : 15%;
+	height : 40px;
+	background-color : pink;
+	font-size : 16px;
+	font-weight : bold;
+	
+}
+
+.text1{
+	font-size : 16px;
+	font-family : georgia , serif ;
+	letter-spacing : 2px;
+	text-align : center;
+	
+}
+
+#image1{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:15%;
+}
+.productData{
+	background-color:#d3d3d3;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:3px;
+	width:50%;
+}
+.box {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.boxlog{
+	width: 50%;
+	padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+/*Footuer class*/
+.flip-box {
+  background-color: transparent;
+  width: 49%;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.productDatas{
+	background-color:#d3d3d3;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:3px;
+	width:100%;
+	
+}
+
+.footer{
+
+  position: relative;
+  left: 0;
+  bottom:-1%;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+}
+.table1{
+	border: 1px solid black;
+  border-radius: 10px;
+}
+.table2{
+	border-radius: 10px;
+	 border-collapse: collapse;
+	
+}
+
+.mobilelogo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.checked {
+  color: orange;
+}
+
+.pofilepic{
+	
+	display:block;
+	margin-left:10px;
+	width:70px;
+	border-radius: 50%;
+}
+
+#more {display: none;}
+
+.btns {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  padding: 12px 16px; /* Some padding */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btns:hover {
+  background-color: RoyalBlue;
+}
+.delete{
+	width:20px;
+}
+.service{
+	
+	padding:20px;
+}
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Mobileapp
+{
+  background-color: white;
+  border: 0;
+  color: #293d3d;
+  padding: 6px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.inlinethepages{
+	margin-left:10px;
+	text-decoration: none;
+	color:white;
+}
+.map{
+	
+	width:90%
+}
+
+h2{
+	font-family:Arial;
+}
+
+/*footer*/
+
+
+.footer{
+	background-color: #24262b;
+	line-height: 1.5;
+	font-family: sans-serif;
+    padding: 40px 0px;
+	margin:0;
+	
+	box-sizing: border-box;
+}
+ul.list{
+	list-style: none;
+}
+.container{
+	max-width: 1400px;
+	height:200px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+   width: 15%;
+   padding: 0 110px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+	
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 5px 5px 0;
+	text-align: center;
+	padding-top:10px;
+	line-height: 40px;
+	border-radius: 30%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+
+.text{
+	color:#bbbbbb;
+}
+/*responsive registra page 01 decaration ,i used to get this code from w3.school,create flip box i used https://www.w3schools.com/howto/howto_css_flip_box.asp*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.creditlogo{
+	margin-top:20px;
+	margin-left:900px;
+	float:left;
+	
+}
+.logof{
+	
+	padding-top:10px;
+	width:120px;
+	height:120px;
+	float:auto;
+}
+
+/*home page Side Show = Used make home page side show i used this you tube video https://youtu.be/qDww4CbxtD4 */
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 4000px;
+	height:300px;
+	margin: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img{
+	width:800px;
+	height:400px;
+	float: left;
+	}
+	.slide{
+		width: 800px;
+		height:400px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	@keyframes slider{
+		0%{
+			left: 0;
+		}
+		20%{
+			left: 0;
+		}
+		25%{
+			left: -100%;
+		}
+		45%{
+			left: -100%;
+		}
+		50%{
+			left: -200%;
+		}
+		70%{
+			left: -200%;
+		}
+		75%{
+			left: -300%;
+		}
+		95%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+		
+		
+	}
+	
+	/*Sign Up page deco*/
+	
+.welcome{
+	text-align:center;
+	padding-bottom:30px;
+	animation:blink 1s linear infinite;
+}
+@keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+	
+}
+.RegiBox{
+	width: 70%;
+	padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float:right;
+}
+
+/*my part*/
+.regbtn
+{
+  background-color: black; 
+  color: white; 
+  border: 2px solid #4CAF50;
+	
+}
+#th{
+	font-weight:bold;
+	font-size:20px;
+	
+}
+.settinglogo
+{
+
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+ 
+		
+}
+
+
+/*my part*/
+
+
+
+
+

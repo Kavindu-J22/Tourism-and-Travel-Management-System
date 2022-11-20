@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home/traveltime</title>
+	<link rel="stylesheet" type = "text/css" href = "styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+	<script src = "js/traveltime.js"></script>
+</head>
+
+<body>
+	<div class="head">
+	<button id = "log"  type = "button" value = "Login"><a href="userLogin.php" style="text-decoration: none;">Login</a></button>
+	<button id = "sign"  type = "button" value = "Sign Up"> <a href="userSignUp.html" style="text-decoration: none;">Sign Up </a></button>
+	<image class="logpic"src="images/log.jpg" alt="Avatar">
+	</br>
+	
+	<image class = "logo" src = "images/logo.jpg"alt = "logo">
+	
+	<center>
+	<h2>TravelTime</h2>
+	<h3>Tourism and travel management system<h3>
+	</center>
+	
+
+	<ul class="menu">
+		<li class = "menu1" ><a href = "Home.html">Home</a></li>
+		<li class = "menu1"><a href = "About us.html">About us</a></li>
+		<li class = "menu1"><a href = "services.html">Service</a></li>
+		<li class = "menu1"><a href = "category.html">Catogery</a></li>
+		<li class = "menu1"><a href = "contactus.html">Contact</a></li>
+		<li><a id = "admin" href = "adminlogin.php">Admin user</a></li>
+		<br>
+		<input id ="btn"type ="button" value = "search">
+		<input id = "searchbar" type = "text" placeholder = "search"></li>
+		
+	</ul>
+	</div>
+	
+	<br>
+	<br> 
+	
+	<a href="Home.html" class="inlinethepages">Home   >> </a><a href="registerPage1.html" class="inlinethepages"> Register Step 01 </a><br>
+	
+	
+	<table  border="0" width="100%" bgcolor="#e8e8e8" class="table2" >
+	<tr><td><br>
+
+	
+	<form method="post" action="">
+	<h1><b> Registration Form </b></h1>
+	<table border="3" width="50%" style="float:left" bgcolor="#C39EA0">
+		<tr><td>
+			<h3>Name : </h3> 
+			<input type="text" class="box" placeholder="First" required>
+			<input type="text" class="box" placeholder="Last" required><br>
+			
+			<h3>Local
+			<input type="radio" name="type" value="Local" >
+			Forerign 
+			<input type="radio" name="type" value="Forerign"><br><br>
+			
+			Male 
+			<input type="radio" name="gender" value="male">
+			Female
+			<input type="radio" name="gender" value="female"><br></h3>
+			
+			<h3>ID/Passport Number :</h3>
+			<input type="number" class="box" placeholder="20003235698" required><br>
+			
+			<h3>Country :</h3> 
+			<select name="dropdown" class="box" required>
+			<option value="sel" >Select</option>
+			<option value="Sri" >Sri Lanka</option>
+			<option value="cana" >Canada</option>
+			<option value="japa" >Japan</option>
+			<option value="ger" >Germany</option>
+			<option value="swi" >Switzerland</option>
+			<option value="aus" >Australia</option>
+			<option value="uni" >United States</option>
+			<option value="new" >New Zealand</option>
+			<option value="net" >Netherlands</option>
+			<option value="ote" >Other</option>
+			</select><br>
+		
+		<h3>Mobile Number :</h3>
+		<input type="phone" class="box" placeholder="+9875 2364 1254" pattern="[0-9]{10}" required><br>
+		
+		<h3>E-Mail :</h3>
+		<input type="email" class="box" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9._]+\.[a-z]{2,3}" required> <br>
+		
+		<h3>Password : </h3>
+		<input type="password" class="box" placeholder="xxxxxxxxx" pattern="(?=.+\d)(?=.+[a-z])(?=.+[A-Z]){5,10}" required><br>
+		
+		<h3> Re-enter Password : </h3>
+		<input type="password" class="box" placeholder="xxxxxxxx" pattern="(?=.+\d)(?=.+[a-z])(?=.+[A-Z]){5,10}" required> <br><br>
+		</td></tr>
+	</table> 
+	<table border="3" width="50%" height="48%" style="float:right" bgcolor="#C39EA0">
+	<tr><td>
+		
+		<h3>Birth Day : </h3> 
+		<input type="date" class="box" required><br>
+		
+		<h3>Address : </h3> 
+		<input type="address" class="box" placeholder="Street address"><br>
+		<input type="address" class="box" placeholder="street addres line 2"><br>
+		<input type="address" class="box" placeholder="City"><br>
+		
+		<h3>Message : </h3> 
+		<input type="text" class="box" rows="15" cols="15" required><br><br>
+		
+		<input type="checkbox">I promise all of the above are ture <br><br>
+	
+		
+		<button><a href="Registration02.html" style="text-decoration: none;" class="button button1">Submit And Next</a></button>
+	</td></tr>
+	</table>
+	<br><br>
+	<div class="flip-box" style="float:right" >
+	<div class="flip-box-inner" >
+    <div class="flip-box-front">
+	
+	<!--create flip box i used https://www.w3schools.com/howto/howto_css_flip_box.asp-->
+    <h2> Happy Travel Time </h2>
+	<p>STONG AND CONTENT, I TRAVEL THE OPEN ROAD<br> -Walt Whitman- </p>
+	<br><br>
+	<img src="images/20.JPG">
+    </div>
+    <div class="flip-box-back">
+	
+    <h2> NO, THEY WHISPER.YOU OWN NOTHING. YOU WERE A VISITOR, TIME AFTER TIME.... WE NEVER BELONG TO YOU.YOU NEVER FOUND</h2> <br><p> -Margaret Atwood- </p>
+	<img src="images/21.JPG">
+    </div>
+	</div>
+	</div>
+	
+	
+	</form>
+	</td></tr>
+	</table>
+	
+	
+	<br><br><br><br>
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+		
+  	 		<div class="footer-col">
+  	 			
+  	 			<ul class="list">
+  	 				<li class ="text">TravelTime(pvt)Ltd.</li>
+					<li class ="text">+111-651-2559</li>
+					<li class ="text">+251-658-2559</li>
+					<li class ="text">Mail : TravelTime@gmail.com</li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+			<ul class="list">
+  	 			<li class ="text">Follow Us</li>
+			</ul>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://lk.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+			
+  	 	</div>
+		
+		<ul class="list">
+		<li class ="text" style="margin-left:900px; margin-bottom:-170px;" >We accepted</li>
+		</ul>
+		<div class="creditlogo">
+		<a href="http://www.credit-card-logos.com/"><img alt="Credit Card Logos" title="Credit Card Logos" 
+		src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-2/credit_card_logos_26.gif" width="302" height="45" border="0" /></a>
+		<!--i copied this code from http://www.credit-card-logos.com/ web site-->
+		</div>
+	</div>
+  </footer>
+	
+</body>
+
+</html>

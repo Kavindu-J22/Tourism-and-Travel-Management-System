@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home/traveltime</title>
+	<link rel="stylesheet" type = "text/css" href = "styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+	<script src = "js/traveltime.js"></script>
+</head>
+
+<body>
+	<div class="head">
+<button id = "log"  type = "button" value = "Login"><a href="userLogin.php" style="text-decoration: none;">Login</a></button>
+	<button id = "sign"  type = "button" value = "Sign Up"> <a href="userSignUp.html" style="text-decoration: none;">Sign Up </a></button>
+	<image class="logpic"src="images/log.jpg" alt="Avatar">
+	</br>
+	
+	<image class = "logo" src = "images/logo.jpg"alt = "logo">
+	
+	<center>
+	<h2>TravelTime</h2>
+	<h3>Tourism and travel management system<h3>
+	</center>
+	
+
+		<ul class="menu">
+		<li class = "menu1" ><a href = "Home.html">Home</a></li>
+		<li class = "menu1"><a href = "About us.html">About us</a></li>
+		<li class = "menu1"><a href = "services.html">Service</a></li>
+		<li class = "menu1"><a href = "category.html">Catogery</a></li>
+		<li class = "menu1"><a href = "contactus.html">Contact</a></li>
+		<li><a id = "admin" href = "adminlogin.php">Admin user</a></li>
+		<br>
+		<input id ="btn"type ="button" value = "search">
+		<input id = "searchbar" type = "text" placeholder = "search"></li>
+		
+	</ul>
+	</div>
+	
+	<br>
+	<br> 
+	
+	<a href="Home.html" class="inlinethepages">Home   >> </a><a href="services.html" class="inlinethepages"> Service </a><br>
+	
+	
+	<table  border="0" width="100%" bgcolor="#e8e8e8" class="table2" >
+	<tr><td><br>
+	<h2> <b> <font color="#0a0b0b" style="padding:15px;"> Other Serices </font></b></h2>
+	
+	
+	<p class="service">At Travel Time Group , we pride ourselves on the personalised service we provide to our holidaymakers as premier among tour operators in Sri Lanka. Our customer service and travel executives are trained to provide our customers with the best service possible. You can rely on us 24/7 for support and assistance, and you can trust our travel executives with every part of your travel management. Our travel management style is about delivering the maximum results for your travel program, so you can achieve every possible satisfaction.
+	<br><br>Amongst the leading tour operators in Sri Lanka, we specialised in inbound tours, outbound holiday packages, MICE, flight bookings and transportation. With over 40 years of experience we thrive to be the best in the business. </p>
+	
+	<p class="service"> A program that prepares individuals to manage travel-related enterprises and related convention and/or tour services.Includes instruction in</p>
+	<ol><div  class="service">
+		<li > Travel agency management</li>
+		<li> Tour arranging and planning</li>
+		<li> Convention and event planning</li>
+		<li> Travel industry operations and procedures</li>
+		<li> Tourism marketing and promotion strategies </li>
+		<li> Travel counseling</li>
+		<li> Travel industry law</li>
+		<li> Tnternational and domestic operations</li>
+		<li> Travel and tourism policy</li>
+	</div>
+	</ol>
+	
+	<center>
+	<button name="btn1" class="button button1" onclick="services('btn1')"> Get Services </button> <!--create function for buttons--->
+	<button name="btn2" class="button button2" onclick="services('btn2')"> Get Help Services </button>
+	<br><br>
+	<img src="images/service.JPG" width="80%" height="200px" id="imag1"> <br><br>
+	</center>
+	<p id="parass" class="service"></p>
+	</td><td>
+
+	
+	<center>
+	<table border="1"  class="table2" width="60%" height="50%" bgcolor="white">
+	<tr><td>
+	
+	<h3 align="center"> Our Mobile App </h3>
+	<img src="images/logo.jpg" width="50%" style="border-radius: 50%" align="center" class="mobilelogo"><br><br>  
+	
+	<button class="Mobileapp"><img src="images/R.PNG" width="10%" height="10%"><a href="https://www.apple.com/store" style="text-decoration: none;"><br>App Store</a></button><br><br>
+	<button class="Mobileapp"><a href="https://google-play-store.en.softonic.com/android" style="text-decoration: none;"><img src="images/playstore.JPG" width="15%" height="15%"> <br> Google Play</a></button>
+	<!--Link in the googleplaysotre and applestore in to the mobile app add-->
+	
+	</td></tr>
+	
+	</table>
+	</center>
+	</td></tr>
+	<tr> <td>
+	
+	<center>
+	<h2> Get involved now and get our best service </h2><!--If customer want to get more information into our web page , redirect to the contact page-->
+	<Button class="button button1"> <a href="contactus.html" style="text-decoration: none;">Contact US</a></button>
+	</center>
+	
+	</td> <td>
+	<center>
+	<h2> WE ARE IN </h2></center> <!--display the our location in google map-->
+	<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58585973673!2d79.78616438944185!3d6.9220039463228975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1633365371737!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</td> </tr>
+	<br><br>
+	</table>
+	<br><br>
+	
+	
+	
+
+
+
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+		
+  	 		<div class="footer-col">
+  	 			
+  	 			<ul class="list">
+  	 				<li class ="text">TravelTime(pvt)Ltd.</li>
+					<li class ="text">+111-651-2559</li>
+					<li class ="text">+251-658-2559</li>
+					<li class ="text">Mail : TravelTime@gmail.com</li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+			<ul class="list">
+  	 			<li class ="text">Follow Us</li>
+			</ul>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://lk.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+			
+  	 	</div>
+		
+		<ul class="list">
+		<li class ="text" style="margin-left:900px; margin-bottom:-170px;" >We accepted</li>
+		</ul>
+		<div class="creditlogo">
+		<a href="http://www.credit-card-logos.com/"><img alt="Credit Card Logos" title="Credit Card Logos" 
+		src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-2/credit_card_logos_26.gif" width="302" height="45" border="0" /></a>
+		<!--I used get idea for the footer this http://www.credit-card-logos.com/ web site-->
+		</div>
+	</div>
+  </footer>
+	
+</body>
+
+</html>

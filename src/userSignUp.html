@@ -1,0 +1,132 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+	<title>Home/traveltime</title>
+	<link rel="stylesheet" type = "text/css" href = "styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+	<script src = "js/traveltime.js"></script>
+</head>
+
+<body>
+	<div class="head">
+	<button id = "log"  type = "button" value = "Login"><a href="userLogin.php" style="text-decoration: none;">Login</a></button>
+	<button id = "sign"  type = "button" value = "Sign Up"> <a href="userSignUp.html" style="text-decoration: none;">Sign Up </a></button>
+	<image class="logpic"src="images/log.jpg" alt="Avatar">
+	</br>
+	
+	<image class = "logo" src = "images/logo.jpg"alt = "logo">
+	
+	<center>
+	<h2>TravelTime</h2>
+	<h3>Tourism and travel management system<h3>
+	</center>
+	
+
+	<ul class="menu">
+		<li class = "menu1" ><a href = "Home.html">Home</a></li>
+		<li class = "menu1"><a href = "About us.html">About us</a></li>
+		<li class = "menu1"><a href = "services.html">Service</a></li>
+		<li class = "menu1"><a href = "category.html">Catogery</a></li>
+		<li class = "menu1"><a href = "contactus.html">Contact</a></li>
+			<br>
+		<input id ="btn"type ="button" value = "search">
+		<input id = "searchbar" type = "text" placeholder = "search">
+	</ul>
+	</div>
+	
+	
+	
+	<br>
+	<a href="Home.html" class="inlinethepages">Home   >> </a><a href="userSignUp.html" class="inlinethepages" style="text-decoration: none;"> Sign Up </a><br>
+	
+
+	<table  border="0" width="100%" bgcolor="#e8e8e8" class="table2" >
+	<tr><td><br>
+	
+
+	
+	<table class="table2" border="1" width="100%"><tr><td>
+	<form method="post" action="UserSignUp.php" >
+	<center><h1>Sign Up</h1></center>
+	<br><br>
+	 
+	Name
+	<input type="text" name="signup1" class="box" placeholder="  First Name" required> 
+	<input type="text"  name="signup2" class="box" placeholder="  Last Name" required><br><br>
+	
+	Birth day 
+	<input type="date"  name="signup3" class="box" required><br><br>
+	
+	Mobile Number
+	<input type="phone"  name="signup4" class="box" placeholder="  0711111111" pattern="[0-9]{10}" required><br><br>
+	
+	Email 
+	<input type="email"  name="signup5" class="box"  placeholder="ABc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9._]+\.[a-z]{2,3}"><br><br>
+	
+	choose a password
+	<input type="password"  name="signup6" class="box"  id="pwd" placeholder="xxxxxxxx" pattern="(?=.+\d)(?=.+[a-z])(?=.+[A-Z]){5,10}" required><br><br>
+	
+	Re-enter password
+	<input type="password"  class="box" id="repwd" placeholder="xxxxxxxx" onsubmit="checkPassword()" pattern="(?=.+\d)(?=.+[a-z])(?=.+[A-Z]){5,10}" required><br><br>
+	
+	<center><input type="submit" class="button button1" class="box" value="Sign Up"></center>
+	</td></tr></table>
+	</form>
+
+	</td><td>
+	<table border="1" class="welcome" bgcolor="#00d1d1" style="margin-left:100px;">
+		<tr>
+		<td>
+		<center>
+			<h2 class="welcome">HOORAY!</h2><h3>Welcome to the TRAVELTIME Family</h3>
+			<p class="service" >Are you ready to have the most unique experience of your life?</p>
+		</center>
+		</td>
+		</tr>
+	</table>
+	
+	</td></tr>
+	</table>
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+		
+  	 		<div class="footer-col">
+  	 			
+  	 			<ul class="list">
+  	 				<li class ="text">TravelTime(pvt)Ltd.</li>
+					<li class ="text">+111-651-2559</li>
+					<li class ="text">+251-658-2559</li>
+					<li class ="text">Mail : TravelTime@gmail.com</li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+			<ul class="list">
+  	 			<li class ="text">Follow Us</li>
+			</ul>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://lk.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+			
+  	 	</div>
+		
+		<ul class="list">
+		<li class ="text" style="margin-left:900px; margin-bottom:-170px;" >We accepted</li>
+		</ul>
+		<div class="creditlogo">
+		<a href="http://www.credit-card-logos.com/"><img alt="Credit Card Logos" title="Credit Card Logos" 
+		src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-2/credit_card_logos_26.gif" width="302" height="45" border="0" /></a>
+		<!--i copied this code from http://www.credit-card-logos.com/ web site-->
+		</div>
+	</div>
+  </footer>
+		
+</body>
+
+</html>
